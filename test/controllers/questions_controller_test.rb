@@ -9,4 +9,11 @@ class QuestionsControllerTest < ActionDispatch::IntegrationTest
     get quiz_questions_url(@quiz)
     assert :success
   end
+
+  test "should create quesiton" do
+    @question = questions(:one)
+    assert_difference('Question.count') do
+      post quiz_questions_url(@quiz), params: { text: @question.text }, as: :json
+    end
+  end
 end
