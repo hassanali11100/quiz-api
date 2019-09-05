@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  text: 62
+  is_correct?: false
+  question: ImranAge
+
+two:
+  text: 66
+  is_correct?: true
+  question: ImranAge
