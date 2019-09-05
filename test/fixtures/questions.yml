@@ -1,9 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  text: MyText
-  quiz: one
+ImranAge:
+  text: What is the age of Imran Khan
+  quiz: ImranBiography
 
-two:
-  text: MyText
-  quiz: two
+ImranCricketDebut:
+  text: Imran Khan debut in Cricket
+  quiz: ImranBiography
