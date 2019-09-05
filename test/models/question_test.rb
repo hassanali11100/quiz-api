@@ -2,7 +2,7 @@ require 'test_helper'
 
 class QuestionTest < ActiveSupport::TestCase
   setup do
-    @quiz = quizzes(:one)
+    @quiz = quizzes(:ImranBiography)
   end
 
   test "should save valid question" do

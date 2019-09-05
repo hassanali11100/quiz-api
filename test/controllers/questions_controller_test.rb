@@ -2,8 +2,8 @@ require 'test_helper'
 
 class QuestionsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @quiz = quizzes(:one)
-    @question = questions(:one)
+    @quiz = quizzes(:ImranBiography)
+    @question = questions(:ImranAge)
   end
 
   test "should get index" do
